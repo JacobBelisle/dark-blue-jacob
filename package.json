@@ -4,6 +4,10 @@
     "description": "Dark Blue theme",
     "version": "0.0.1",
     "publisher": "DarkBlueJacob",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/JacobBelisle/dark-blue-jacob"
+    },
     "engines": {
         "vscode": "^1.56.0"
     },

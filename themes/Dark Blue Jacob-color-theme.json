@@ -218,7 +218,9 @@
     {
       "scope":[
        "storage.type.built-in.primitive",
-       "entity.name.type.parameter.cpp"
+       "entity.name.type.parameter.cpp",
+       "storage.modifier.reference.cpp",
+       "keyword.operator"
       ],
       "settings": {
         "foreground": "#00FF62B4",
@@ -226,11 +228,14 @@
     },
     {
       "scope":[
-        "entity.name.function"
+        "entity.name.function",
+        "keyword.control.return",
+        "constant.numeric.decimal",
+        "entity.name.namespace.cpp"
       ],
       "settings": {
         "foreground": "#FF7300",
-        "fontStyle": "bold"
+        "fontStyle": "italic"
       }
     },
     {
@@ -243,11 +248,63 @@
     },
     {
       "scope":[
-        "storage.modifier"
+        "storage.modifier",
+        "entity.name.scope-resolution.function.definition.cpp",
+        "punctuation.separator.scope-resolution.function.definition.cpp",
+        "entity.name.scope-resolution.cpp",
+        "punctuation.separator.scope-resolution.cpp",
+        "entity.name.scope-resolution.function.call.cpp",
+        "punctuation.separator.scope-resolution.function.call.cpp",
+        "entity.name.scope-resolution.operator.cpp",
+        "punctuation.separator.scope-resolution.operator.cpp",
+        "meta.body.function.definition.special.operator-overload.cpp"
       ],
       "settings": {
         "foreground": "#FBFF00BE",
         "fontStyle": "italic"
+      }
+    },
+    {
+      "scope":[
+        "entity.name.type.class.cpp",
+        "entity.name.type.cpp"
+      ],
+      "settings": {
+        "foreground": "#D9FF00",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope":[
+        "keyword.other.using.directive.cpp",
+        "punctuation.definition.directive.cpp",
+        "keyword.control.directive",
+        "storage.type.namespace.directive.cpp"
+      ],
+      "settings": {
+        "foreground": "#a6ff00d0",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":[
+        "punctuation.definition.string.begin.cpp",
+        "punctuation.definition.string.end.cpp",
+        "meta.preprocessor",
+        "storage.type.class.cpp",
+        "storage.type.modifier.access.control"
+      ],
+      "settings": {
+        "foreground": "#00b3ff"
+      }
+    },
+    {
+      "scope":[
+        "punctuation.definition.string.begin.cpp",
+        "punctuation.definition.string.end.cpp"
+      ],
+      "settings": {
+        "foreground": "#00ff62b4"
       }
     }
 	]

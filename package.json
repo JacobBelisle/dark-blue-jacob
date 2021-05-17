@@ -1,0 +1,22 @@
+{
+    "name": "dark-blue-jacob",
+    "displayName": "Dark Blue Jacob",
+    "description": "Dark Blue theme",
+    "version": "0.0.1",
+    "publisher": "DarkBlueJacob",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Blue Jacob",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Blue Jacob-color-theme.json"
+            }
+        ]
+    }
+}

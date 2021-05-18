@@ -2,11 +2,11 @@
     "name": "dark-blue-jacob",
     "displayName": "Dark Blue Jacob",
     "description": "Dark Blue theme",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "publisher": "DarkBlueJacob",
     "repository": {
-      "type": "git",
-      "url": "https://github.com/JacobBelisle/dark-blue-jacob"
+        "type": "git",
+        "url": "https://github.com/JacobBelisle/dark-blue-jacob"
     },
     "engines": {
         "vscode": "^1.56.0"

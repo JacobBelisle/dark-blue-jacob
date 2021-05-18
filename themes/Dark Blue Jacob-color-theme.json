@@ -306,6 +306,62 @@
       "settings": {
         "foreground": "#00ff62b4"
       }
+    },
+    {
+      "scope":[
+        "support.function.builtin.shell",
+        "keyword.control.shell"
+      ],
+      "settings": {
+        "foreground": "#FF7300",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope":[
+        "markup.heading.markdown"
+      ],
+      "settings": {
+        "foreground": "#FF7300",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":[
+        "markup.list.unnumbered.markdown"
+      ],
+      "settings": {
+        "foreground": "#00b3ff",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope":[
+        "keyword.control.flow.js",
+        "support.function.js",
+        "keyword.control.conditional.js"
+      ],
+      "settings": {
+        "foreground": "#FF7300",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope":[
+        "storage.type.function.js"
+      ],
+      "settings": {
+        "foreground": "#FF7300",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope":[
+        "storage.type.js"
+      ],
+      "settings": {
+        "foreground": "#FBFF00BE",
+      }
     }
 	]
 }
